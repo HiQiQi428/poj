@@ -2,6 +2,8 @@
 #define beNumber(c) (48 <= c && c <= 57)
 #define dis(from, to) list[from].distance[to]
 
+// 最短路径
+
 typedef struct _Node {
     char distance[20];
 } Node;

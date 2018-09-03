@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// 棋盘
+
 void output(char board[9][9]) {
     printf("\n!");
     for (int i = 0; i < 9; i++)
