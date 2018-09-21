@@ -11,7 +11,7 @@ typedef struct _Entry {
     struct _Entry* next;
 } Entry;
 
-Entry** table;s
+Entry** table;
 int mapSize = 0;
 int slotSize = 0;
 int num = 0;
